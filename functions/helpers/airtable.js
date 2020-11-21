@@ -2,7 +2,7 @@
 
 //configuration for airtable
 
-//   http://localhost:8888/api/courses
+//   http://localhost:8888/.netlify/functions/courses
 
 require('dotenv').config()
 
