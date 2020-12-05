@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 //for adding the tags
 
 export default function Tags({ tagsUpdated, key }) {
-    const tagChoices = ['node', 'javascript', 'react', 'jamstack'];
+    const tagChoices = ['node', 'javascript', 'react', 'nextJS'];
     const [selectedTags, setSelectedTags] = useState([]);
 
     useEffect(() => {

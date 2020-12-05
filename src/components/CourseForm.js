@@ -34,7 +34,7 @@ export default function CourseForm({ courseAdded }) {
 
     return (
         <div className="card">
-            <div className="card-header">Add a New Course</div>
+            <div className="card-header">Add a New Event</div>
             <div className="card-body">
                 <form className="" onSubmit={submitCourse}>
                     <div className="form-group">

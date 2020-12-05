@@ -21,7 +21,7 @@ function App() {
     }, []);
     return (
         <div className="container mt-5">
-            <h1 className="mb-5 text-center">Course Tracker</h1>
+            <h1 className="mb-5 text-center">MAKERFAIRE EVENTS</h1>
             <CourseForm courseAdded={loadCourses} />
             <CourseList courses={courses} refreshCourses={loadCourses} />
         </div>

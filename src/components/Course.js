@@ -41,14 +41,14 @@ export default function Course({ course, refreshCourses }) {
                     className="btn btn-sm btn-primary"
                     onClick={markCoursePurchased}
                 >
-                    Purchased
+                    Past event
                 </button>
             )}
             <button
                 className="btn btn-sm btn-danger ml-2"
                 onClick={deleteCourse}
             >
-                Delete
+                Delete event
             </button>
         </div>
     );
